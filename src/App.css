@@ -1,38 +1,203 @@
+* {
+    box-sizing: border-box;
+}
+
 .App {
-  text-align: center;
+    position: absolute;
+    width: 550px;
+    height: 868px;
+    left: 180px;
+    top: 52px;
+    background: #23252C;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.rectangle90 {
+    position: absolute;
+    width: 330px;
+    height: 300px;
+    top: 47px;
+    left: 115px;
+    background-image: url(./images/boskoimg.png);
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.rectangle91 {
+    position: absolute;
+    width: 330px;
+    height: 400px;
+    left: 115px;
+    top: 347px;
+    background: #1A1B21;
+}
+
+.rectangle91>h2 {
+    top: 382px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.rectangle91>h3 {
+    top: 382px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    color: #F3BF99;
+}
+
+.rectangle91>h4 {
+    top: 382px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.8px;
+    line-height: 1px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.btn1 {
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+background: #FFFFFF;
+/* gray/300 */
+
+border: 1px solid #D1D5DB;
+box-sizing: border-box;
+/* shadow/sm */
+
+margin: auto;
+width: 160px;
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+
+
+.Description {
+    width: 247px;
+    height: 201px;
+    left: 152px;
+    top: 535px;
+    margin: 10px;
+}
+
+.AboutTitle {
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 535px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #F5F5F5;
+}
+
+.InfoTitle {
+    width: 242.71px;
+    height: 21px;
+    left: 152px;
+    top: 649px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+    color: #F5F5F5;
+}
+
+.DescriptionParagraph {
+    width: 247px;
+    height: 61px;
+    left: 152px;
+    top: 561px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+    color: #DCDCDC;
+}
+
+.emailText {
+    position: static;
+    width: 36px;
+    height: 16px;
+    left: 50.5px;
+    top: 9px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+    /* gray/700 */
+    color: #374151;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 8px;
+}
+
+.footer{
+    position: absolute;
+width: 330px;
+height: 64px;
+left: 115px;
+top: 747px;
+
+background: #161619;
+border-radius: 0px 0px 10px 10px;
+}
+
+.social-container{
+    padding: 25px 50px;
+}
+
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
   }
-}
+  
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  a.social:hover {
+    transform: translateY(-2px);
   }
-  to {
-    transform: rotate(360deg);
+  
+  a.linked {
+    color: #4968ad;
   }
-}
+  
+  a.twitter {
+    color: #4968ad;
+  }
+  
+  a.insta {
+    color: #4968ad;
+  }
+
+  a.fb {
+    color: #4968ad;
+  }
+  
